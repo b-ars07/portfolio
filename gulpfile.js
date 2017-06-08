@@ -17,7 +17,7 @@ var
 		gulp.watch([
 			'app/*.html',
 			'app/js/**/*.js',
-			'app/css/**/.css'
+			'app/css/**/*.css'
 			]).on('change', browserSync.reload);
 	});
 
